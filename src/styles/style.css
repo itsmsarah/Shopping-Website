@@ -1,0 +1,75 @@
+@import url(./global.css);
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('../assets/fonts/Poppins-Black.ttf') ;         
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../assets/fonts/Poppins-Medium.ttf') ;         
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../assets/fonts/Poppins-Regular.ttf') ;         
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 46px 101.46px 56px 100px;
+    border: 1px solid;
+    gap:642px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:65px;
+    text-align: center;
+    align-items: center;
+}
+nav ul li{
+    font-family:var(--font--family--medium);
+    color:var(  --color--neutra--black);
+    text-transform: uppercase;
+}
+nav a{
+    text-decoration: none;
+}
+.logo img{
+    width: 236.26px;
+    height: 60px;
+}
+nav button{
+    background-color: var(--color--neutra--black);
+    color: var(  --color--neutral--white);
+    /* padding: 13px 22.26px 21px 21.74px; */
+    text-align: center;
+    border-radius: 8px;
+    width: 134px;
+    height: 62px;
+    text-transform: uppercase;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    align-items: center;
+    
+}
+.main-content h1{
+    width: 474px;
+    font-size: 96px;
+    font-family: var( --font--family--black);
+    color: var(--color--neutra--black);
+    text-transform: uppercase;
+}
+.main-content p
+
+.main-img{
+    width: 891px;
+    height: 784px;
+}
