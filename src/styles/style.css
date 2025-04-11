@@ -67,7 +67,11 @@ main{
     color: var(--color--neutra--black);
     text-transform: uppercase;
 }
-.main-content p
+.main-content p{
+    font-size:32px;
+    font-family: var(--font--family--regular);
+    color: #191818;
+}
 
 .main-img{
     width: 891px;
